@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="log_char_limit" format="integer" type="integer">2000</item>
+    <item name="cimb_url" format="string" type="string">
+        https://www.cimbclicks.com.sg/sgd-to-myr-business
+    </item>
+    <!--    <item name="other_url" format="string" type="string">-->
+    <!--        https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=SGD&amp;To=MYR-->
+    <!--    </item>-->
+    <item name="other_url" format="string" type="string">
+        https://www.bloomberg.com/quote/SGDMYR:CUR
+    </item>
+    <item name="cimb_selector" format="string" type="string">form.form-container</item>
+<!--    <item name="other_selector" format="string" type="string">-->
+<!--        table.currency-conversion-tables__ConverterTable-sc-3fg8ob-5-->
+<!--    </item>-->
+    <item name="other_selector" format="string" type="string">
+        div[data-component=sized-price]
+    </item>
+</resources>
